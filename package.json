@@ -1,6 +1,5 @@
 {
-
-  "name": "DNS Resolver",
+  "name": "DNSresolver",
   "version": "0.0.1",
   "description": "Resolve DNS",
   "main": "server.js",
