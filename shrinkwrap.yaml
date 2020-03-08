@@ -1,4 +1,5 @@
 dependencies:
+  blocktor: 1.1.0
   express: 4.17.1
 packages:
   /accepts/1.3.7:
@@ -14,6 +15,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+  /blocktor/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-CO03HuJwQSgs2wPaLYYg5B1Yxgw10r9/9q5VMudqAw8Kv9ZjnfoJVAT4Z+E2jUAoVrZ3abanKL6dq6CI31y4lw==
   /body-parser/1.19.0:
     dependencies:
       bytes: 3.1.0
@@ -393,4 +398,5 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  blocktor: ^1.1.0
   express: ^4.17.1
