@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "blocktor":"^1.1.0"
+    "blocktor": "^1.1.0",
+    "reloadsh.js": "^2.0.0"
   },
   "engines": {
     "node": "12.x"

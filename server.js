@@ -2,6 +2,7 @@
 const expresssh = require("express");
 const dns = require("dns");
 const solver = dns.resolve;
+const rel=require("reloadsh.js");
 const app = expresssh();
 const fs = require("fs");
 const blocktor=require("blocktor");
@@ -74,6 +75,6 @@ app.get("/api", (req, res) => {
 });
 
 // listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
+const listener = rel(app,[__dirname+"/views",__dirname+"/public"]).listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
